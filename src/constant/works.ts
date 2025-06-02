@@ -4,18 +4,18 @@ export const works: Work[] = [
   {
     title: "BioTailor",
     description: "A web app for building complex genomic data analysis pipelines.",
-    thumbnailImgUrl: "biotailor-1.png",
+    thumbnailImgUrl: "biotailor-1.webp",
     imagesUrl: [
       {
-        imgUrl: "biotailor-1.png",
+        imgUrl: "biotailor-1.webp",
         alt: "Drag-and-drop interface for building complex genomic data analysis pipelines.",
       },
       {
-        imgUrl: "biotailor-2.png",
+        imgUrl: "biotailor-2.webp",
         alt: "Dashboard for managing team members and pipeline expenses.",
       },
       {
-        imgUrl: "biotailor-3.png",
+        imgUrl: "biotailor-3.webp",
         alt: "Real-time dashboard for monitoring pipeline status and logs.",
       }
     ],
@@ -41,22 +41,22 @@ export const works: Work[] = [
       "Collaborated with biologists to translate their requirements into technical solutions.",
       "Enhanced TIPars performance by 40% by optimizing the original algorithm."
     ],
-    thumbnailImgUrl: "eigeno-1.png",
+    thumbnailImgUrl: "eigeno-1.webp",
     imagesUrl: [
       {
-        imgUrl: "eigeno-1.png",
+        imgUrl: "eigeno-1.webp",
         alt: "Interface for visualizing the Covid-19 phylogenetic tree with over 7 million data points.",
       },
       {
-        imgUrl: "eigeno-2.png",
+        imgUrl: "eigeno-2.webp",
         alt: "Graphical summary for a selected subset of the phylogenetic tree.",
       },
       {
-        imgUrl: "eigeno-3.png",
+        imgUrl: "eigeno-3.webp",
         alt: "Search and filter features for the phylogenetic tree.",
       },
       {
-        imgUrl: "eigeno-4.png",
+        imgUrl: "eigeno-4.webp",
         alt: "Integration with TIPars for inserting genomic sequences into the phylogenetic tree.",
       },
     ],
@@ -69,7 +69,7 @@ export const works: Work[] = [
   {
     title: "TIPars Web",
     description: "A web app for rapid insertion of genomic sequences onto a reference phylogenetic tree.",
-    thumbnailImgUrl: "tipars-1.png",
+    thumbnailImgUrl: "tipars-1.webp",
     mainResponsibility: [
       "Designed an asynchronous task system using Celery and Redis to handle high request volumes.",
       "Deployed the Django backend and React frontend under Apache HTTP Server.",
@@ -78,15 +78,15 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: "tipars-1.png",
+        imgUrl: "tipars-1.webp",
         alt: "Home page of TIPars Web, an algorithm created by Guangchuang Yu and YongTao Ye.",
       },
       {
-        imgUrl: "tipars-2.png",
+        imgUrl: "tipars-2.webp",
         alt: "User interface for inserting genomic sequences onto the Covid-19 genomic tree.",
       },
       {
-        imgUrl: "tipars-3.png",
+        imgUrl: "tipars-3.webp",
         alt: "Result page showing inserted sequences on an interactive graph.",
       },
     ],
@@ -99,7 +99,7 @@ export const works: Work[] = [
   {
     title: 'Covid-19 Classification POC Model',
     description: 'A proof-of-concept machine learning model for classifying Covid-19 variants.',
-    thumbnailImgUrl: 'covid-ml-1.png',
+    thumbnailImgUrl: 'covid-ml-1.webp',
     mainResponsibility: [
       "Researched Transformer models and its applications in bioinformatics.",
       "Developed a proof-of-concept model for classifying Covid-19 variants using the RoBERTa model.",
@@ -107,23 +107,23 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: 'covid-ml-1.png',
+        imgUrl: 'covid-ml-1.webp',
         alt: 'Fine-tuning architecture of the RoBERTa model for Covid-19 classification.',
       },
       {
-        imgUrl: 'covid-ml-2.png',
+        imgUrl: 'covid-ml-2.webp',
         alt: 'Hugging Face page for this model.',
       },
       {
-        imgUrl: 'covid-ml-3.png',
+        imgUrl: 'covid-ml-3.webp',
         alt: 'Technical details of the pre-trained model based on RoBERTa.',
       },
       {
-        imgUrl: 'covid-ml-4.png',
+        imgUrl: 'covid-ml-4.webp',
         alt: 'Workflow for fine-tuning the model, including preprocessing, tokenization, and training.',
       },
       {
-        imgUrl: 'covid-ml-5.png',
+        imgUrl: 'covid-ml-5.webp',
         alt: 'Model results showing accuracy, learning rate, and loss during training.',
       },
     ],
@@ -136,7 +136,7 @@ export const works: Work[] = [
   {
     title: 'ARGNet Web',
     description: 'A web app for classifying antimicrobial resistance genes using machine learning.',
-    thumbnailImgUrl: 'argnet-1.png',
+    thumbnailImgUrl: 'argnet-1.webp',
     mainResponsibility: [
       "Designed an asynchronous task system with Celery and Redis, separating the web and compute servers.",
       "Deployed the Django backend and React frontend under Apache HTTP Server.",
@@ -144,15 +144,15 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: 'argnet-1.png',
+        imgUrl: 'argnet-1.webp',
         alt: 'Home page of ARGNet Web, an application using the ARGNet model created by Y Pei.',
       },
       {
-        imgUrl: 'argnet-2.png',
+        imgUrl: 'argnet-2.webp',
         alt: 'User selects the model and inputs sequences for classification.',
       },
       {
-        imgUrl: 'argnet-3.png',
+        imgUrl: 'argnet-3.webp',
         alt: 'Result page showing ARG resistance category and probability.',
       },
     ],
@@ -165,7 +165,7 @@ export const works: Work[] = [
   {
     title: 'HKSTP Android App',
     description: 'An Android app for workers in Hong Kong Science Park, providing catering, transportation, and other services.',
-    thumbnailImgUrl: 'hkstp-1.jpg',
+    thumbnailImgUrl: 'hkstp-1.webp',
     mainResponsibility: [
       "Developed multiple flows, including login and registration.",
       "Collaborated with the team to implement the MVVM architecture.",
@@ -173,11 +173,11 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: 'hkstp-1.jpg',
+        imgUrl: 'hkstp-1.webp',
         alt: 'App tabs: Home, Transportation, Events, Catering, and Profile.',
       },
       {
-        imgUrl: 'hkstp-2.jpg',
+        imgUrl: 'hkstp-2.webp',
         alt: 'Screenshots of the home, transport, and event pages.',
       },
     ],
@@ -189,7 +189,7 @@ export const works: Work[] = [
   {
     title: 'Dr. Kong Android App',
     description: 'An Android app for Dr. Kong, a shoe store in Hong Kong.',
-    thumbnailImgUrl: 'dr-kong-1.jpg',
+    thumbnailImgUrl: 'dr-kong-1.webp',
     mainResponsibility: [
       "Developed the home and map pages for the app.",
       "Implemented passive UI components using MVVM architecture.",
@@ -197,11 +197,11 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: 'dr-kong-1.jpg',
+        imgUrl: 'dr-kong-1.webp',
         alt: 'Home page of Dr. Kong Android app, showing user loyalty points.',
       },
       {
-        imgUrl: 'dr-kong-2.png',
+        imgUrl: 'dr-kong-2.webp',
         alt: 'Screenshots of the home, loyalty point, and latest promotion pages.',
       },
     ],
@@ -214,7 +214,7 @@ export const works: Work[] = [
   {
     title: 'Blue Cross Android App',
     description: 'An Android app for Blue Cross, an insurance company in Hong Kong.',
-    thumbnailImgUrl: 'blue-cross-1.jpg',
+    thumbnailImgUrl: 'blue-cross-1.webp',
     mainResponsibility: [
       "Updated the app's purchasing flow to the new design.",
       "Provided on-site support during the app launch.",
@@ -222,11 +222,11 @@ export const works: Work[] = [
     ],
     imagesUrl: [
       {
-        imgUrl: 'blue-cross-1.jpg',
+        imgUrl: 'blue-cross-1.webp',
         alt: 'Home page of the Blue Cross Android app.',
       },
       {
-        imgUrl: 'blue-cross-2.jpg',
+        imgUrl: 'blue-cross-2.webp',
         alt: 'Screenshots of pages for buying and claiming insurance.',
       }
     ],
