@@ -13,5 +13,5 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base: '/isaachkwu.github.io/'
+  base: '/'
 })
