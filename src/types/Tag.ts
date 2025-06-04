@@ -2,7 +2,7 @@ export type LanguageTag = 'Javascript' | 'TypeScript' | 'Python' | 'Java' | 'C' 
 export type FrameworkTag = 'React' | 'Node.js' | 'Django' | 'Maven' | 'Gradle' | 'Android' | 'Celery' | 'Three.js' | 'D3.js' | 'PyTorch' 
 export type DatabaseTag = 'MySQL' | 'PostgreSQL' | 'MongoDB' | 'SQLite' | 'Dynamodb' | 'Redis'
 export type DeploymentTag = 'AWS' | 'Docker' | 'Apache HTTP Server' | 'Nginx' | 'SST' | 'Terraform'
-export type ConecptTag = 'SOLID' | 'OOP' | 'Composition' | 'Reactive' | 'Decalrative' | 'MVC' | 'MVP' | 'MVVM' | 'Microservices' | 'Serverless' | 'Event-driven' | 'CI/CD' | 'Horizontal Scaling' | 'Machine Learning' | 'BERT'
+export type ConecptTag = 'SOLID' | 'OOP' | 'Composition' | 'Reactive' | 'Declarative' | 'MVC' | 'MVP' | 'MVVM' | 'Microservices' | 'Serverless' | 'Event-driven' | 'CI/CD' | 'Horizontal Scaling' | 'Machine Learning' | 'BERT'
 
 export type Tag = LanguageTag | FrameworkTag | DatabaseTag | DeploymentTag | ConecptTag
 
@@ -44,7 +44,7 @@ export const tagCategories: TagCategories = {
   },
   'Concept': {
     tagCategory: 'Concept',
-    tags: ['SOLID', 'OOP', 'Composition', 'Reactive', 'Decalrative', 'MVC', 'MVP', 'MVVM', 'Microservices', 'Serverless', 'RESTful API', 'CI/CD', 'Horizontal Scaling', 'Event-driven', 'Machine Learning', 'BERT'],
+    tags: ['SOLID', 'OOP', 'Composition', 'Reactive', 'Declarative', 'MVC', 'MVP', 'MVVM', 'Microservices', 'Serverless', 'RESTful API', 'CI/CD', 'Horizontal Scaling', 'Event-driven', 'Machine Learning', 'BERT'],
     color: 'bg-purple-200',
     borderColor: 'border-purple-200'
   }
