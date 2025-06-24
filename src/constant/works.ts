@@ -4,7 +4,7 @@ export const works: Work[] = [
   {
     title: "BioTailor",
     description: "A web app for building complex genomic data analysis pipelines.",
-    thumbnailImgUrl: "biotailor-1.webp",
+    thumbnailImgUrl: "biotailor-thumb.webp",
     imagesUrl: [
       {
         imgUrl: "biotailor-1.webp",
@@ -41,7 +41,7 @@ export const works: Work[] = [
       "Collaborated with biologists to translate their requirements into technical solutions.",
       "Enhanced TIPars performance by 40% by optimizing the original algorithm."
     ],
-    thumbnailImgUrl: "eigeno-1.webp",
+    thumbnailImgUrl: "eigeno-thumb.webp",
     imagesUrl: [
       {
         imgUrl: "eigeno-1.webp",
@@ -69,7 +69,7 @@ export const works: Work[] = [
   {
     title: "TIPars Web",
     description: "A web app for rapid insertion of genomic sequences onto a reference phylogenetic tree.",
-    thumbnailImgUrl: "tipars-1.webp",
+    thumbnailImgUrl: "tipars-thumb.webp",
     mainResponsibility: [
       "Designed an asynchronous task system using Celery and Redis to handle high request volumes.",
       "Deployed the Django backend and React frontend under Apache HTTP Server.",
@@ -99,7 +99,7 @@ export const works: Work[] = [
   {
     title: 'Covid-19 Classification POC Model',
     description: 'A proof-of-concept machine learning model for classifying Covid-19 variants.',
-    thumbnailImgUrl: 'covid-ml-1.webp',
+    thumbnailImgUrl: 'covid-ml-thumb.webp',
     mainResponsibility: [
       "Researched Transformer models and its applications in bioinformatics.",
       "Developed a proof-of-concept model for classifying Covid-19 variants using the RoBERTa model.",
@@ -136,7 +136,7 @@ export const works: Work[] = [
   {
     title: 'ARGNet Web',
     description: 'A web app for classifying antimicrobial resistance genes using machine learning.',
-    thumbnailImgUrl: 'argnet-1.webp',
+    thumbnailImgUrl: 'argnet-thumb.webp',
     mainResponsibility: [
       "Designed an asynchronous task system with Celery and Redis, separating the web and compute servers.",
       "Deployed the Django backend and React frontend under Apache HTTP Server.",
@@ -165,7 +165,7 @@ export const works: Work[] = [
   {
     title: 'HKSTP Android App',
     description: 'An Android app for workers in Hong Kong Science Park, providing catering, transportation, and other services.',
-    thumbnailImgUrl: 'hkstp-1.webp',
+    thumbnailImgUrl: 'hkstp-thumb.webp',
     mainResponsibility: [
       "Developed multiple flows, including login and registration.",
       "Collaborated with the team to implement the MVVM architecture.",
@@ -189,7 +189,7 @@ export const works: Work[] = [
   {
     title: 'Dr. Kong Android App',
     description: 'An Android app for Dr. Kong, a shoe store in Hong Kong.',
-    thumbnailImgUrl: 'dr-kong-1.webp',
+    thumbnailImgUrl: 'dr-kong-thumb.webp',
     mainResponsibility: [
       "Developed the home and map pages for the app.",
       "Implemented passive UI components using MVVM architecture.",
@@ -214,7 +214,7 @@ export const works: Work[] = [
   {
     title: 'Blue Cross Android App',
     description: 'An Android app for Blue Cross, an insurance company in Hong Kong.',
-    thumbnailImgUrl: 'blue-cross-1.webp',
+    thumbnailImgUrl: 'blue-cross-thumb.webp',
     mainResponsibility: [
       "Updated the app's purchasing flow to the new design.",
       "Provided on-site support during the app launch.",
