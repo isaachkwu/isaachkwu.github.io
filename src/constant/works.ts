@@ -19,7 +19,7 @@ export const works: Work[] = [
         alt: "Real-time dashboard for monitoring pipeline status and logs.",
       }
     ],
-    link: "https://alpha-test.biotailor.org",
+    link: "https://testv2.biotailor.org",
     tags: [
       'AWS', 'SST', 'React', 'Maven', 'TypeScript', 'Java', 'Dynamodb', 'Microservices', 'Serverless', 'Event-driven'
     ],
